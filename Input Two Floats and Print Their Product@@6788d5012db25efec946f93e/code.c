@@ -5,5 +5,5 @@ int main() {
     scanf("%f %f", &num1, &num2);
     product = num1*num2;
     printf("product: %f/n", product);
-    return 9;
+    return 0;
 }
