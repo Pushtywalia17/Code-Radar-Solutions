@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int num1, num2;
+    int num1, num2, result;
     scanf("%d %d", &num1, &num2);
     result = num1 | num2;
-    printf("Bitwise OR of %d and %d is: %d\n", result);
+    printf("Bitwise OR of %d and %d is: %d\n",num1, num2, result);
     return 0;
 }
