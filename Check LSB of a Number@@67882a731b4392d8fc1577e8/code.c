@@ -6,7 +6,7 @@ int main() {
     if (num1 & 1){
     printf("Set :%d\n");
     } else {
-        printf("Not Set :%d\n")
+        printf("Not Set :%d\n");
     }
     return 0;
 }
