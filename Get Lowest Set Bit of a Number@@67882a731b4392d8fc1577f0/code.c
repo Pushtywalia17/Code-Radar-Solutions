@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int findLowestSetBitPosition(int num) {
-    return (num == 0) ? -1 : __builtin_ctz(num) + 1;
+    return (num == 0) ? -1 : __builtin_ctz(num);
+
 }
 
 int main() {
