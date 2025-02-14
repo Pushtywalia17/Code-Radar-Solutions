@@ -1,6 +1,6 @@
 #include <stdio.h>
 int toggleNthBit(int num1, int num2) {
-    return num1 ^ (1<<n);
+    return num1 ^ (1<<num2);
 }
 
 int main() {
