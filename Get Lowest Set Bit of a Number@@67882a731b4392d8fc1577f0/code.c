@@ -9,7 +9,7 @@ int main() {
     scanf("%d", &num);
 
     int pos = findLowestSetBitPosition(num);
-    printf("Lowest set bit is at position: %d\n", pos);
+    printf("%d\n", pos);
 
     return 0;
 }
