@@ -16,7 +16,7 @@ int main() {
     scanf("%u", &num);
 
     int leadingZeroes = countLeadingZeroes(num);
-    printf("Number of leading zeroes: %d\n", leadingZeroes);
+    printf("%d\n", leadingZeroes);
 
     return 0;
 }
