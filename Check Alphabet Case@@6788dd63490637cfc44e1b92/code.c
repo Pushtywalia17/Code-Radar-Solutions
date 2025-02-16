@@ -6,7 +6,7 @@ void checkCase(char ch) {
     } else if (ch >= 'a' && ch <= 'z') {
         printf("Lowercase\n");
     } else {
-        printf("Not a letter\n");
+        printf("Not an alphabet\n");
     }
 }
 
