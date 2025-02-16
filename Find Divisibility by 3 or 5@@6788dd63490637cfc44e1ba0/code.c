@@ -7,7 +7,7 @@ int main() {
     } else if (num1 % 5 == 0) {
         printf("Divisible by 5");
     }
-    else if ((num1 % 3 == 0) {
+    else if (num1 % 3 == 0) {
         printf("Divisible by 3");
     }
     else {
