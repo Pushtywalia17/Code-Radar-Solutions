@@ -9,19 +9,19 @@ int main() {
         printf("Excellent\n");
     }
     else if (grade == 'B') {
-        printf("Good\n");
+        printf("Good");
     }
     else if (grade == 'C') {
-        printf("Average\n");
+        printf("Average");
     }
     else if (grade == 'D') {
-        printf("Below Average\n");
+        printf("Below Average");
     }
     else if (grade == 'E') {
-        printf("Fail\n");
+        printf("Fail");
     }
     else {
-        printf("Invalid grade\n");
+        printf("Invalid grade");
     }
 
     return 0;
