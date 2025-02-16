@@ -4,10 +4,8 @@ int main() {
     int num, limit;
 
     // Taking input from the user
-    printf("Enter a number: ");
     scanf("%d", &num);
 
-    printf("Enter the limit: ");
     scanf("%d", &limit);
 
     // Printing the multiplication table header
