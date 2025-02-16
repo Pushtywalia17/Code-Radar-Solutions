@@ -6,5 +6,5 @@ int main() {
         printf("%d\n", N)
         
     }
-    return 0;
+return 0;
 }
