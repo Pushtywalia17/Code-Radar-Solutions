@@ -1,24 +1,27 @@
 #include <stdio.h>
 
 void checkCharacter(char ch) {
-
-    if (ch >= 'a' && ch <= 'z') { 
-        if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')
-            printf("Vowel");
-        else
-            printf("Consonant");
+    if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')) { 
+        if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' || 
+            ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U') {
+            printf("Vowel\n");
+        } else {
+            printf("Consonant\n");
+        }
     } 
     else if (ch >= '0' && ch <= '9') { 
-        printf("Digit");
+        printf("Digit\n");
     } 
     else {
-        printf("Special Character");
+        printf("Special Character\n");
     }
 }
 
 int main() {
     char ch;
-    scanf("%c", &ch);
+    printf("Enter a character: ");
+    scanf(" %c", &ch);  // Added space before %c to avoid newline issues
+
     checkCharacter(ch);
 
     return 0;
