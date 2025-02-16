@@ -6,7 +6,7 @@ int main() {
     scanf("%d", &num);
     scanf("%d", &limit);
 
-    printf("%d:\n", num);
+    printf("%d\n", num);
     for (int i = 1; i <= limit; i++) {
         printf("%d × %d = %d\n", num, i, num * i);
     }
