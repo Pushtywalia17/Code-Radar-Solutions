@@ -7,18 +7,14 @@ int main() {
         printf("%d\n", num1 + num2);
     }
     else if (op == -) {
-        printf("%d\n", num1 - num2)
+        printf("%d\n", num1 - num2);
     }
     else if (op == *) {
-        printf("%d\n", num1 * num2)
+        printf("%d\n", num1 * num2);
     }
     else if (op == /) {
-        printf("%d\n", num1 / num2)
+        printf("%d\n", num1 / num2);
     }
-
-
-
-    
     return 0;
     
 }
