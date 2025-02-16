@@ -18,7 +18,7 @@ int main() {
         if (num2 != 0) {
             printf("%d\n", num1 / num2);
         } else {
-            printf("Error: Division by zero is not allowed.\n");
+            printf("error\n");
         }
     }
     else {
