@@ -11,8 +11,11 @@ int main() {
     else if (light == 'G') {
         printf("Go");
     }
+    else if (light == 'Y') {
+        printf("Slow Down")
+    }
     else {
-        printf("Slow Down");  
+        printf("Invalid Input");  
     }
 
     return 0;
