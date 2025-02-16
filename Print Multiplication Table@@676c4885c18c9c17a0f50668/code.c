@@ -4,14 +4,13 @@ int main() {
     int num, limit;
 
     // Taking input from the user
-    scanf("%d", &num);
+    if (scanf("%d", &num) != 1 || scanf("%d", &limit) != 1) {
+        printf("Invalid input! Please enter integers only.\n");
+        return 1;  // Exit the program with an error code
+    }
 
-    scanf("%d", &limit);
-
-    // Printing the multiplication table header
+    // Printing the multiplication table
     printf("Multiplication Table of %d:\n", num);
-
-    // Loop to print the table
     for (int i = 1; i <= limit; i++) {
         printf("%d × %d = %d\n", num, i, num * i);
     }
