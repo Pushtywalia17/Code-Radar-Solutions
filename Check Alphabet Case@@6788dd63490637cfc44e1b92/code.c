@@ -9,7 +9,7 @@ void checkCase(char ch) {
 }
 
 int main() {
-    char ch
+    char ch;
     scanf("%c", &ch);
     checkCase(ch);
     return 0;
