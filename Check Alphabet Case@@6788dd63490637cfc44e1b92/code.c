@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 void checkCase(char ch) {
-    if (ch>= 'A' && ch<= 'Z')
-       printf("Uppercase");
-    }    else {
-       printf("Lowercase");
+    if (ch >= 'A' && ch <= 'Z') {
+        printf("Uppercase");
+    } else {
+        printf("Lowercase");
     }
 }
 
