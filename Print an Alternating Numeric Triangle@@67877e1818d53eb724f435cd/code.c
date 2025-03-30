@@ -7,11 +7,12 @@ int main() {
           if ((i+j)% 2 == 0)
             printf("1 ");
         }
-         else {
-            printf("0 ");
-        }      
+         } else {                        
+                printf("0 ");
+            }
         }
-    printf("\n");
+        printf("\n");
     }
-return 0;
+
+    return 0;
 }
