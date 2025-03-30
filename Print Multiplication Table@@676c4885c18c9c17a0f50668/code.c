@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main() {
-    int num, range;
+    int num;
     
-    // Input the number and range
-    scanf("%d %d", &num, &range);
+    // Input the number
+    scanf("%d", &num);
 
-    for (int i = 1; i <= range; i++) {    // Loop from 1 to the range
+    for (int i = 1; i <= 10; i++) {     // Loop from 1 to 10
         printf("%d x %d = %d\n", num, i, num * i);
     }
 
